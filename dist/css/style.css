@@ -1,0 +1,143 @@
+.container {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/d8295124651847.5e8b9d913f73a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 900px;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 20%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0;
+  margin-top: 10px;
+  flex-direction: row;
+  color: aliceblue;
+}
+.logo i {
+  width: 20px;
+  height: 20px;
+  margin-left: 4px;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  width: 80%;
+  height: auto;
+}
+nav ul {
+  justify-content: right;
+  margin: 5px;
+  padding: 6px;
+  list-style: none;
+  display: flex;
+  width: 50%;
+}
+nav li {
+  color: white;
+  margin: 3px;
+  padding: 2px;
+  text-decoration: none;
+}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: flex;
+}
+nav li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+nav li i {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: flex;
+}
+nav h3 {
+  color: white;
+}
+nav i {
+  margin-bottom: 20px;
+}
+nav .we {
+  color: green;
+}
+
+.HOME {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 20%;
+  z-index: 1;
+}
+.HOME .box {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.HOME .box .startup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  color: white;
+}
+.HOME .box .startup h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+.HOME .box .startup p {
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.HOME .box .startup .buttons {
+  color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.HOME .box .startup button {
+  width: 200px;
+  height: 50px;
+  margin-right: 10px;
+}
+.HOME .settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #04AA6D;
+  top: 50%;
+  position: fixed;
+  left: 0;
+}/*# sourceMappingURL=style.css.map */
